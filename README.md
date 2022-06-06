@@ -1,4 +1,4 @@
-# ![](./assets/favicon.png) pdf2map
+# pdf2map
 
 As the title suggests, I created this useful web app to let people upload their not-scanned pdfs and turned them into interactive maps.
 
