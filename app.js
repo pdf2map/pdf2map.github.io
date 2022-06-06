@@ -35,19 +35,16 @@ function scrollToGraphs() {
     location.hash = '#cloud';
 }
 
-
 // disable loading button
 let fileBtn = document.querySelector(".btn-file");  
 fileBtn.addEventListener("click", function() {
     this.classList.add('disabled');
     this.classList.add('nohover');
-    this.disabled = true;
-
-    // maybe implementing a delay here
-    // inputDOMelement.disabled = true;
+    //this.disabled = true;
 });
 
-// DRAG AND DROP FUNCTION AREA
+// DRAG AND DROP FUNCTION AREA (does not work if you drop file in the area)
+// works only if you drop file on file input
 dropArea.addEventListener("change", () => {
     //file = this.files[0];
     console.log("PRESO");
@@ -71,7 +68,6 @@ dropArea.addEventListener("drop", function(e) {
     dropArea.classList.add("drop");
     dragText.textContent = 'Uploading...';
     file = e.dataTransfer.files[0];
-    console.log(file);
 }, false);
 
 // does not work
@@ -88,7 +84,7 @@ function sanitize(a){
     let filtered_ = merged.filter(function(el) {
         return (/^[a-z]+$/i.test(el));
     });
-    
+
     // to remove falsy value (null, undefiened, "", NaN, false)
     let filtered_bool = filtered_.filter(Boolean);
     
