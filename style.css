@@ -305,3 +305,9 @@ footer {
   align-items: center;
   padding-inline: 1rem;
 }
+
+@media screen and (max-width: 35em) {
+  .ft-container {
+    flex-direction: column;
+  }
+}

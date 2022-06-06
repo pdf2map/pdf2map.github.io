@@ -8,8 +8,8 @@
         // start spinning
         startSpinBtn();
     
-        fileBtn.disabled = false;
-        inputFile.disabled = false;   
+        // fileBtn.disabled = false;
+        // inputFile.disabled = false;   
 
         // remove old DOMs
         const dropdownMenu = document.querySelector(".dropdown");
@@ -100,8 +100,8 @@
                     // to restore initial state
                     fileBtn.classList.remove('disabled');
                     fileBtn.classList.remove('nohover');
-                    fileBtn.disabled = true;
-                    inputFile.disabled = true;        
+                    // fileBtn.disabled = true;
+                    // inputFile.disabled = true;        
     
                     // resume of the code
                     // ga('send', 'event', 'conversion', 'success');
@@ -117,8 +117,6 @@
         }
         });
     };
-    //console.log(e.target.files);
-    // console.log(e.target.files[0]);
     if(e.target.files && e.target.files[0]) {
         startSpinBtn();
         // ga('send', 'event', 'button', 'click', 'convert pdf to text');
