@@ -49,7 +49,7 @@ fileBtn.addEventListener("click", function() {
 
 // DRAG AND DROP FUNCTION AREA
 dropArea.addEventListener("change", () => {
-    file = this.files[0];
+    //file = this.files[0];
     console.log("PRESO");
 });
 
