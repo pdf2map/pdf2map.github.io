@@ -1,15 +1,14 @@
 (function() {
     var currentFilename = '';
     inputFile.addEventListener('change', function(e) {
-       // console.log(e);
     var fileReader = new FileReader();
     fileReader.onload = function(e) {
         
         // start spinning
         startSpinBtn();
     
-        // fileBtn.disabled = false;
-        // inputFile.disabled = false;   
+        fileBtn.disabled = false;
+        inputFile.disabled = false;   
 
         // remove old DOMs
         const dropdownMenu = document.querySelector(".dropdown");
@@ -19,7 +18,7 @@
         removeDOMs();    
     
         // to remove horiz line seperator
-        let hr = document.querySelector("hr");
+        // let hr = document.querySelector("hr");
         // hr.classList.add("dsp-none");
     
         // the rest

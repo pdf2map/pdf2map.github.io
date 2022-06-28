@@ -40,14 +40,13 @@ let fileBtn = document.querySelector(".btn-file");
 fileBtn.addEventListener("click", function() {
     this.classList.add('disabled');
     this.classList.add('nohover');
-    //this.disabled = true;
+    // this.disabled = true;
 });
 
 // DRAG AND DROP FUNCTION AREA (does not work if you drop file in the area)
 // works only if you drop file on file input
 dropArea.addEventListener("change", () => {
     //file = this.files[0];
-    console.log("PRESO");
 });
 
 dropArea.addEventListener("dragover", function(e) {
