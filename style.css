@@ -5,23 +5,12 @@ html {
 
   margin: 0 !important;
   padding: 0 !important;
-  /* box-sizing: border-box !important; */
 }
 
 body {
   min-height: 90vh;
   padding-block-end: 5rem;
 }
-
-/* body {
-  margin: 0;
-  background-color: #fefefe;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ff6347' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-} */
-
-/* body * {
-  outline: 1px solid red;
-} */
 
 .well {
   margin-top: 40px;
