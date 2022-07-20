@@ -2,6 +2,8 @@
 
 As the title suggests, I created this useful web app to let people upload their not-scanned pdfs and turned them into interactive maps.
 
+![Poster](./assets/pdf2mapPoster.png)
+
 ## Why?
 
 I started this project as a side project, I was in need of something that could help me visualize the links between topics written in the pdfs given to me during lectures.
