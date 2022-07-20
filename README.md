@@ -1,8 +1,6 @@
-# pdf2map
+# pdf2map ✨
 
 As the title suggests, I created this useful web app to let people upload their not-scanned pdfs and turned them into interactive maps.
-
-![Poster](./assets/pdf2mapPoster.png)
 
 ## Why?
 
@@ -22,3 +20,5 @@ First of all, let me thank you for the time you are spending reading this type o
 ## Feature I would like to include/implement
 
 I would LOVE to implement an OCR technology to be able to analyze scanned pdfs too, not to mention the limit caused by the size of the file you are trying to upload. I also would like to make the interaction seamless for all types of devices (from computers to mobiles...) and maybe add some new graphs, who knows... 
+
+![Poster](./assets/pdf2mapPoster.png)
